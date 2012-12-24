@@ -16,7 +16,7 @@ public class Main {
         final JFrame form = new JFrame("RegExp Tasker Creator");
         final TaskCreator taskCreator = new TaskCreator(form, System.getProperty("user.dir") + "/tasks.tsk");
         form.setContentPane(taskCreator.getMainPanel());
-        form.setMinimumSize(new Dimension(200, 300));
+        form.setMinimumSize(new Dimension(700, 550));
         form.pack();
         form.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         form.setVisible(true);

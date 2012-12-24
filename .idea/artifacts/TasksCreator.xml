@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TasksCreator">
+    <output-path>$PROJECT_DIR$/out/artifacts/TasksCreator</output-path>
+    <root id="archive" name="TasksCreator.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/creator/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="regexp" />
+      <element id="file-copy" path="$APPLICATION_HOME_DIR$/lib/annotations.jar" />
+    </root>
+  </artifact>
+</component>
